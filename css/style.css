@@ -16,6 +16,11 @@
 .topstatus img {
     margin: 0 5px;
 }
+.logo img {
+  position:absolute;
+  top: -14px;
+  left: 0;
+}
 .menuheader div { text-align: center;}
 .menuheader div a{color:#0e0e0e;text-decoration: none;}
 .topstatus {text-align: right;color: white; padding: 5px 0;}
@@ -132,12 +137,23 @@ body {
 
 
 
+/* MEDIA X 0000000000000000000000000000000000000000000000000000000000000000000000000*/
+
 
 
 @media (max-width: 992px) {
   .coverotate { padding: 10px 0;}
   .coverotate:hover { background-color: #ff2929;}
   .coverotate a:hover {color: white;}
+  .cl-effect-18 a::before,
+  .cl-effect-18 a::after {
+    left: 30% !important;
+  }
+  .header {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -145,14 +161,28 @@ body {
   .conduct {text-align: right; padding-right: 50px !important;}
 }
 
+@media screen and (max-width: 767px) {
+  .cl-effect-18 a::before,
+  .cl-effect-18 a::after {
+      height: 0px !important; width: 0px !important;
+  }
+  .menuheader div {margin-bottom: 10px; padding: 10px 0; background: red;}
+  .menuheader div a:hover {color: white;}
+  .conduct {
+      padding: 15px 0; 
+      text-align: center; 
+      font-size: 1.5em !important; 
+      line-height: 1.5em;
+  }
+  .input_footer div { text-align: center;}
+}
 
 
 
 
 
 
-
-/*MENU0000000000000000000000000000000000000000000000000000000000000000000000000*/
+/* MENU X 0000000000000000000000000000000000000000000000000000000000000000000000000*/
 
 
 .cl-effect-18 {
@@ -228,6 +258,77 @@ body {
 
 
 
+/* Hamberger menu 0000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+
+#nav-ham { position: absolute; left: 10%; top: 50%; }
+
+#nav-ham { cursor: pointer; padding: 15px 35px 16px 0px; }
+#nav-ham span, #nav-ham span:before, #nav-ham span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 4px;
+  width: 25px;
+  background: black;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-ham span:before {
+  top: -8px; 
+}
+#nav-ham span:after {
+  bottom: -8px;
+}
+
+#nav-ham span, #nav-ham span:before, #nav-ham span:after {
+  transition: all 100ms ease-in-out;
+}
+
+
+.activeham:hover #nav-ham span {
+  background-color: transparent;
+}
+.activeham:hover #nav-ham span:before, 
+.activeham:hover #nav-ham span:after {
+  top: 0;
+}
+.activeham:hover #nav-ham span:before {
+   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.activeham:hover #nav-ham span:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);}
+
+/*#nav-ham.active span {
+  background-color: transparent;
+}
+#nav-ham.active span:before, #nav-ham.active span:after {
+  top: 0;
+}
+#nav-ham.active span:before {
+  transform: rotate(45deg);
+}
+#nav-ham.active span:after {
+  transform: rotate(-45deg);
+}*/
+
+activeham
+
+
+
+
+
+
+
+/* loading bar 0000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
@@ -273,7 +374,7 @@ body {
   display: block;
   position: fixed;
   z-index: 2000;
-  top: 15px;
+  top: 9px;
   right: 15px;
   width: 14px;
   height: 14px;
