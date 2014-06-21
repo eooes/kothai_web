@@ -228,7 +228,11 @@ p {
 .hero-bg {
   width: auto;
   height: 650px;
-  background: url('../images/bgprototype.jpg') #ccc center center repeat-y;
+  background: url('../images/web_banner_front_01.png'),
+  			  url('../images/bgprototype.jpg');
+  background-position: center center, center center;
+  background-repeat: no-repeat, repeat-y;
+  			  
 }
 .subtitle {
   margin-bottom: 18px;
