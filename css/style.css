@@ -262,9 +262,14 @@ body {
 
 
 
-#nav-ham { position: absolute; left: 10%; top: 50%; }
+#nav-ham { 
+  position: absolute; 
+  left: 10%; top: 50%;
+  cursor: pointer; 
+  padding: 15px 35px 16px 0px; 
+  background-color: inherit !important;
+}
 
-#nav-ham { cursor: pointer; padding: 15px 35px 16px 0px; }
 #nav-ham span, #nav-ham span:before, #nav-ham span:after {
   cursor: pointer;
   border-radius: 1px;
@@ -304,26 +309,130 @@ body {
   -moz-transform: rotate(-45deg);
   transform: rotate(-45deg);}
 
-/*#nav-ham.active span {
-  background-color: transparent;
+
+
+
+
+/* MENU  bar 0000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*!
+ * Yamm!3
+ * Yet another megamenu for Bootstrap 3
+ * 
+ * http://geedmo.github.com/yamm3
+ */
+ #cat_bags a{color: #4D4D4D;}
+#cat_bags a:hover{color: white;}
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+  position: static;
 }
-#nav-ham.active span:before, #nav-ham.active span:after {
-  top: 0;
+.yamm .container {
+  position: relative;
 }
-#nav-ham.active span:before {
-  transform: rotate(45deg);
+.yamm .dropdown-menu {
+  left: auto;
+  top: 45px;
 }
-#nav-ham.active span:after {
-  transform: rotate(-45deg);
-}*/
+.yamm .nav.navbar-right .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.yamm .yamm-content {
+  width: 850px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+.yamm .dropdown-menu {
+  background-clip:initial !important;
+  border:none !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  background-color: #E2E0E1;
+  padding: 0 !important;
+}
+.yamm .row {
+  margin-left: 0px; 
+  margin-right: 0px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.yamm .ham_category { 
+  padding-right: 0px; 
+  padding-left: 0px}
+.yamm .ham_category div{
+  font-weight: bold;
+  width: 100%;
+  padding: 10px 10px 10px 30px;
+  text-align: left;
+}
+.yamm .ham_category div:hover{
+  background-color: #E7002D;
+  color: white;
+}
+.yamm .ham_sub_cat{
+  background-color: #E9E9E9;
+  padding-left: 0px !important;
+}
+.yamm .ham_sub_cat .cover_ham{
+  padding-left: 0px !important;
+  padding-top: 8px !important;
+  padding-right: 0;
+}
+.yamm .sub_sub {
+  text-align: left;
+  color: #4D4D4D;
+  padding: 6px 0px 6px 20px;
+}
+.yamm .sub_sub:hover {
+  background-color: #E7002D;
+  color: white;
+}
+.yamm .sub_sub_hot {
+  background-color: #D9D9D9;
+}
+.yamm .sub_sub_hot img {margin: 15px 0;}
+.yamm .sub_sub_hot div {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: left;
+}
+.yamm .special_p_detail {padding-top: 6%;}
+.yamm .special_p_detail h5 {margin: 0;}
+.yamm .special_p_detail span{
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 0px;
+}
+.yamm .special_p_detail small { 
+  text-decoration: line-through;
+  line-height: -5px;
+}
+.yamm .special_p_detail p {
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-size: 2em;
+  color: #E8002C;
+}
 
-activeham
+.yamm  .cover_shadow{padding: 15% 0 0 0;}
+.yamm  .cover_shadow p{padding-top: 20px;}
 
 
+/* all blocked 0000000000000000000000000000000000000000000000000000000000000000000000000*/
 
 
+#cat_bags {display:none;}
+#cat_bags:first-of-type{display:block;}
 
+.yamm  .show1,
+.yamm  .show2
+{display:none;}
 
+.yamm  .show1:first-of-type,
+.yamm  .show2:first-of-type
+{display:block;}
 
 /* loading bar 0000000000000000000000000000000000000000000000000000000000000000000000000*/
 
