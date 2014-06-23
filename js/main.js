@@ -12,6 +12,24 @@ var $links0=$('.main-link').hover(function(){
 
 
 
+// $('.hoverlift').hover(function() {
+//    $(this).stop().animate({
+//   'background-position-x': '100%'
+// });
+//     });
+
+// $("div").hover(function(){
+//     $(this).filter(':not(:animated)').animate({ width: "200px" });
+// }, function() {
+//     $(this).animate({ width: "100px" });
+// });
+
+$(".hoverlift").hover(function(){
+    $(this).stop(true, false).animate({ 'background-position-x': '100%' });
+}, function() {
+    $(this).stop(true, false).animate({ 'background-position-x': '0%' });
+});
+
 
 var $content1= $('div.show1');
 var $links1=$('.menu-link1').hover(function(){

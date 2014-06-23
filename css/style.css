@@ -438,21 +438,24 @@ body {
 
 
 .product_art{
-  background:url('../images/bg_product.png') repeat;
+/*  background:url('../images/bg_product.png') repeat;*/
+  background-color: #d9d9d9;
 }
 .block {
   height: 300px;
+  border: 10px solid #d9d9d9;
   background-color: white;
+  text-align: center;
 }
 .block p{
   position: absolute;
   bottom: 10px;
   left: 30%;
-  text-align: center;
   font-family: 'komika_axisregular';
   font-size: 1.5em;
 }
-.x1,.x10 {
+.block img {margin-top: 30%}
+.x1,.x9 {
   background:url('../images/p_x1.jpg') repeat;
 }
 .x3, .x6{
@@ -465,13 +468,16 @@ body {
   background:url('../images/p_x4.gif') repeat;
 }
 .x2 {
-  background:url('../images/bag1.png') no-repeat center center #ff5d5d;
+  background:url('../images/bgp1.gif') repeat center center #ff5d5d;
 }
 .x8 {
-  background:url('../images/bag2.png') no-repeat center center #f2ff5d;
+  background:url('../images/bgp2.gif') repeat center center #306edf;
 }
-.x9 {
-  background:url('../images/bag1.png') no-repeat center center #5dd3ff;
+.x10 {
+  background:url('../images/bgp3.png') repeat center center #5dd3ff;
+}
+.hoverlift {
+  background-position-y: 0px;
 }
 
 /* loading bar 0000000000000000000000000000000000000000000000000000000000000000000000000*/
