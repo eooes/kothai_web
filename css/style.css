@@ -99,7 +99,7 @@
 .footer .input_footer div { margin-bottom:5px;}
 .footer .input_footer div:first-child {padding-left: 10px;}
 .footer .input_footer div button {border: 0; background: transparent; padding: 0;}
-.copyright {margin-top:30px;  text-align: center;font-weight:900;font-style: italic;}
+.copyright {margin:30px 0 20px 0;   text-align: center;font-weight:900;font-style: italic;}
 
 body {
   font-family: Arial;
@@ -125,7 +125,7 @@ body {
 
 .hero-bg {
   width: auto;
-  height: 650px;
+  height: 494px;
   background: url('../images/web_banner_front_01.png'),
   			  url('../images/bgprototype.jpg');
   background-position: center center, center center;
