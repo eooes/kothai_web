@@ -480,6 +480,32 @@ body {
   background-position-y: 0px;
 }
 
+.little_boxes {
+  -webkit-box-shadow:inset 0px 0px 0px 10px #ff2929;
+  -moz-box-shadow:inset 0px 0px 0px 10px #ff2929;
+  box-shadow:inset 0px 0px 0px 10px #ff2929;
+  background: #d9d9d9;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -kthtml-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.little_boxes:hover {
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -kthtml-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    border-radius: 50%;
+    background: #ff2929;
+  -webkit-box-shadow:inset 0px 0px 0px 20px #ff2929;
+  -moz-box-shadow:inset 0px 0px 0px 20px #ff2929;
+  box-shadow:inset 0px 0px 0px 20px #ff2929;
+}
+
 /* loading bar 0000000000000000000000000000000000000000000000000000000000000000000000000*/
 
 
