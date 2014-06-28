@@ -4,22 +4,34 @@
   <meta charset="utf-8">
   <title>Kothai</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <script src="js/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mmenu.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery.mmenu.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-</head>
-<body class="pace-done">
 
-<div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+</head>
+<body class="pace-done ">
+<div> <!-- the wrapper -->
+<div class="pace pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
   <div class="pace-progress-inner"></div>
 </div>
 <div class="pace-activity"></div></div>
 
+
+      <div class="openham activeham">
+        <a href="#hammenu" id="mobile_ham"><span></span> 
+        <STRONG>MENU</STRONG></a>
+      </div>
+
+
     <div class="covertop">
         <div class="container topstatus">
         <div>
+
             <a href="#">My Cart</a>
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <a href="#">Account: Log In</a>
@@ -35,7 +47,7 @@
     </div>
 
 
-
+<!-- BEGIN HEADER -->
   <div class="section header">
     <div class="container">
       <div class="row menuheader cl-effect-18">
@@ -241,35 +253,12 @@
            </div>
 
 
-
-
-
-
-
-
-
-
-
-
          </div>
         </li>
       </ul>
     </li>
   </ul>
 </nav>
-
-
-
-
-
-      <!--     <a id="nav-ham" href="#"><span></span></a> -->
-
-
-
-
-
-
-
 
 
         </div>
@@ -279,7 +268,94 @@
         <div class="col-md-2 xmenu"><a href="#">stores</a></div>
       </div>
     </div>
-  </div>
+  </div> <!-- END HEADER -->
+
+
+
+
+
+<nav id="hammenu">
+   <ul>
+      <li>
+        <a href="/">Shop</a>
+         <ul>
+            <li>
+              <a href="#">Bags</a>
+                <ul>
+                  <li><a href="#">Reporter</a></li>
+                  <li><a href="#">Messenger Bag</a></li>
+                  <li><a href="#">Bowling Bag</a></li>
+                  <li><a href="#">Mini-Reporter</a></li>
+                  <li><a href="#">Reporter Canvas</a></li>
+                  <li><a href="#">Gym Bag</a></li>
+                  <li><a href="#">Sport Bag</a></li>
+                  <li><a href="#">Cabas</a></li>
+                  <li><a href="#">Triangle</a></li>
+                  <li><a href="#">Valise</a></li>
+                  <li><a href="#">Traveler</a></li>
+                  <li><a href="#">Tote Bag</a></li>
+                  <li><a href="#">Kids</a></li>
+                  <li><a href="#">Passenger</a></li>
+                  <li><a href="#">Promos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Accessoires</a></li>
+            <li><a href="#">Clothes</a></li>
+            <li><a href="#">Collabs</a></li>
+         </ul>
+      </li>
+      <li><a href="#">Collabs</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Stores</a></li>
+      <li><a href="#">My Cart <span class="badge pull-right btn-warning">20</span></a></li>
+      <li><a href="#">Account<span class="badge pull-right">Chawanan</span></a></li>
+   </ul>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div>
     <div class="hero-bg"></div>
   </div>
@@ -330,5 +406,6 @@
     </div>
     <div class="container copyright">2014 &#169; Kothai Store. All Rights Reserved. </div>
   </div>
+</div> <!-- END the wrapper -->
 </body>
 </html>

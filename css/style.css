@@ -149,7 +149,7 @@ body {
   .cl-effect-18 a::after {
     left: 30% !important;
   }
-  .header {
+  .header,.covertop {
     display: none !important;
     visibility: hidden !important;
   }
@@ -177,6 +177,14 @@ body {
   .input_footer div { text-align: center;}
 }
 
+
+/* MENU HAM MOBILE 0000000000000000000000000000000000000000000000000000000000000000000000000*/
+@media (min-width: 992px) {
+  #hammenu,.openham {
+      display: none !important;
+      visibility: hidden !important;
+  }
+}
 
 
 
@@ -311,6 +319,80 @@ body {
 
 
 
+
+
+
+/* Hamberger menu mobile 0000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+.openham a,.openham a:hover{
+  color: #e5e5e5;
+  font-weight: bold;
+  text-decoration: none;
+}
+#mobile_ham { 
+  position: absolute; 
+  left: 0px; top: 0px;
+  cursor: pointer; 
+  padding: 15px 10px 1px 5px;
+  margin: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color:rgba(0,0,0,0.5);
+  width: 95px;
+  height: 37px;
+
+}
+#mobile_ham:hover{
+  background-color:rgba(0,0,0,1);
+}
+#mobile_ham span, #mobile_ham span:before, #mobile_ham span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 4px;
+  width: 25px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#mobile_ham span:before {
+  top: -8px; 
+}
+#mobile_ham span:after {
+  bottom: -8px;
+}
+
+#mobile_ham span, #mobile_ham span:before, #mobile_ham span:after {
+  transition: all 100ms ease-in-out;
+}
+
+
+.openham:hover #mobile_ham span {
+  background-color: transparent;
+}
+.openham:hover #mobile_ham span:before, 
+.openham:hover #mobile_ham span:after {
+  top: 0;
+}
+.openham:hover #mobile_ham span:before {
+   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.openham:hover #mobile_ham span:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);}
+
+#mobile_ham strong{
+  font-size: 1.2em;
+  margin-left: 30px;
+  margin-top: -8px;
+  position: absolute;
+  display: block;
+  content: '';
+}
 
 
 /* MENU  bar 0000000000000000000000000000000000000000000000000000000000000000000000000*/
@@ -481,9 +563,9 @@ body {
 }
 
 .little_boxes {
-  -webkit-box-shadow:inset 0px 0px 0px 10px #ff2929;
-  -moz-box-shadow:inset 0px 0px 0px 10px #ff2929;
-  box-shadow:inset 0px 0px 0px 10px #ff2929;
+  -webkit-box-shadow:inset 0px 0px 0px 5px #ff2929;
+  -moz-box-shadow:inset 0px 0px 0px 5px #ff2929;
+  box-shadow:inset 0px 0px 0px 5px #ff2929;
   background: #d9d9d9;
     -webkit-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
@@ -501,10 +583,21 @@ body {
     transition: all .3s ease-out;
     border-radius: 50%;
     background: #ff2929;
-  -webkit-box-shadow:inset 0px 0px 0px 20px #ff2929;
-  -moz-box-shadow:inset 0px 0px 0px 20px #ff2929;
-  box-shadow:inset 0px 0px 0px 20px #ff2929;
+  -webkit-box-shadow:inset 0px 0px 0px 0px #ff2929;
+  -moz-box-shadow:inset 0px 0px 0px 0px #ff2929;
+  box-shadow:inset 0px 0px 0px 0px #ff2929;
+
 }
+
+
+
+
+
+
+
+
+
+
 
 /* loading bar 0000000000000000000000000000000000000000000000000000000000000000000000000*/
 
