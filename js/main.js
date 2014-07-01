@@ -8,7 +8,12 @@ $(".hoverlift").hover(function(){
 });
 
 
+
 $("#hammenu").mmenu();
+
+
+
+
 
 
 var $content0= $('div#cat_bags');
