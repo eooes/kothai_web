@@ -7,13 +7,9 @@ $(".hoverlift").hover(function(){
     $(this).stop(true, false).animate({ 'background-position-x': '0%' });
 });
 
-// alert($( document ).width());
-// if( $( document ).width() < 970 ) {
-//   $(".img360").width($( document ).width());
-//   $(".img360").height($( document ).width()/1.3333);
-// }
+$('.cov_remove_me').popover();
 
-  $(".img360").height($( document ).width()/1.3333);
+$(".img360").height($( document ).width()/1.3333);
 $("#hammenu").mmenu();
 
 $( ".p_box" ).click(function() {

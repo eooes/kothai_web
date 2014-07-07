@@ -870,8 +870,8 @@ body {
 .checkout .chko_total {font-weight: bold;}
 .checkout .chko_total:hover{ background-color: #67CB47; color: white;}
 .checkout span.badge { background-color: green;}
-.at768,
-.at768_2 {
+.checkout .at768,
+.checkout .at768_2 {
     display: none;
     visibility: hidden;
     text-align: center;
@@ -881,11 +881,57 @@ body {
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.at768_2 {
+.checkout .at768_2 {
     margin-top: 0px;
     margin-bottom: 10px;
 }
+.checkout .cov_remove_me{
+  position: absolute !important;
+  top: 10px;
+  right: 30px;
+}
+.checkout .remove_me {
+  color: #ccc;
+  position: absolute !important;
+  top: -10px !important;
+  right: -20px !important;
+  font-size: 1.3em;
+  -webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+}
+.checkout .remove_me:hover {
+  color: #FB494B;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.checkout .chek_cov_itm {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  padding-top: 20px;  
+}
+.totalcost, .promocode {text-align: right;}
+.totalcost div {
+  padding-top: 5px;
+  padding-bottom: 5px;
 
+}
+.totalcost div:last-child {
+  background: #67CB47;
+  color: white;
+}
+.totalcost div:last-child:hover {
+  background: #9DBCE5;
+  color: yellow;
+}
+.totalcost_am { font-weight: bold;}
+.promocode {padding: 20px 0;}
+.promocode .col-md-12 { padding-right: 0;}
 
 @media (max-width: 768px) {  
   .checkout .h_chko_item,
@@ -895,12 +941,25 @@ body {
     display: none;
     visibility: hidden;
   }
-  .at768, .at768_2 { display: inherit; visibility: inherit;}
+  .checkout .at768, 
+  .checkout .at768_2 
+  { display: inherit; visibility: inherit;}
   .checkout .chko_quan {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-
+  .checkout .chko_total .at768_2{
+    color: #666;
+  }
+  .checkout .cov_remove_me {
+    top: 50px !important;
+    right: 45px !important;
+  }
+  .checkout .remove_me {
+    top: -10px !important;
+    right: -25px !important;
+    font-size: 1.5em;
+  }
 
 }
 
