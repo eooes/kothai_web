@@ -785,9 +785,22 @@ body {
     transition: background 1s ease-in-out;
     color: white;
     background: #FB494B;
-    -webkit-box-shadow: 0 0 0 5px #525252 inset;
+
+/*RELATED PRODUCT CIRCLE FOR CLAIRE*/
+
+/*    -webkit-box-shadow: 0 0 0 5px #525252 inset;
     -moz-box-shadow:    0 0 0 5px #525252 inset;
-    box-shadow:         0 0 0 5px #525252 inset;
+    box-shadow:         0 0 0 5px #525252 inset;*/
+  
+
+/*RELATED PRODUCT CIRCLE FOR CLAIRE*/
+    border-radius: 50%;
+  -webkit-transition: all .5s ease-in-out;
+     -moz-transition: all .5s ease-in-out;
+       -o-transition: all .5s ease-in-out;
+      -ms-transition: all .5s ease-in-out;
+          transition: all .5s ease-in-out;
+/**/
 }
 .product_bottom .list_pro_down:hover .indicate_detail_list{
   background: #525252;
