@@ -10,7 +10,7 @@
 
 }
 .menuheader{
-    font-family: 'komika_axisregular';
+    font-family: 'komika_axisregular', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
     font-size: 1.5em;
 }
 .topstatus img {
@@ -538,7 +538,7 @@ body {
 }
 .block p{
   text-align: center;
-  font-family: 'komika_axisregular';
+  font-family: 'komika_axisregular', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
   font-size: 1.5em;
 }
 .block img {margin-top: 25%; margin-bottom: 5px;}
@@ -614,7 +614,7 @@ body {
   max-width:1024px;
   width: 100%;
 }
-.product .view360 h1 {font-family: 'komika_axisregular';}
+.product .view360 h1 {  font-family: 'komika_axisregular', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;}
 .product .view360 h5 {
   font-style: italic;
   font-weight: bold; 
@@ -653,8 +653,7 @@ body {
   width: 100%;
 }
 .product .product_title {
-    font-family: 'komika_axisregular';
-    font-size: 1.5em;
+    font-family: 'komika_axisregular', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;    font-size: 1.5em;
     font-weight: bold;
 }
 .product .all_price_details{ padding: 15px;}
@@ -759,7 +758,7 @@ body {
 
 
 .product_bottom h3{
-    font-family: 'komika_axisregular';
+    font-family: 'komika_axisregular', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
     font-size: 1.5em;
     font-weight: bold;
 
@@ -841,6 +840,70 @@ body {
 @media (max-width: 400px) {
   .list_pro_down img {margin-top: 25% !important; }
 }
+
+/* Checkout page 0000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+.checkout h1{
+  font-family: 'komika_axisregular', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+}
+.checkout .h_chko_item,
+.checkout .h_chko_price,
+.checkout .h_chko_quan,
+.checkout .h_chko_total {
+  text-align: center;
+  background-color: #d9d9d9;
+  border-right: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.checkout .chko_price,
+.checkout .chko_quan,
+.checkout .chko_total {
+  text-align: center;
+}
+.checkout .chko_price,
+.checkout .chko_total {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.checkout .chko_total {font-weight: bold;}
+.checkout .chko_total:hover{ background-color: #67CB47; color: white;}
+.checkout span.badge { background-color: green;}
+.at768,
+.at768_2 {
+    display: none;
+    visibility: hidden;
+    text-align: center;
+    background-color: #d9d9d9;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.at768_2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {  
+  .checkout .h_chko_item,
+  .checkout .h_chko_price,
+  .checkout .h_chko_quan,
+  .checkout .h_chko_total {
+    display: none;
+    visibility: hidden;
+  }
+  .at768, .at768_2 { display: inherit; visibility: inherit;}
+  .checkout .chko_quan {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+}
+
 
 /* loading bar 0000000000000000000000000000000000000000000000000000000000000000000000000*/
 

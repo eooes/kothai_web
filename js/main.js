@@ -12,6 +12,7 @@ $(".hoverlift").hover(function(){
 //   $(".img360").width($( document ).width());
 //   $(".img360").height($( document ).width()/1.3333);
 // }
+
   $(".img360").height($( document ).width()/1.3333);
 $("#hammenu").mmenu();
 
