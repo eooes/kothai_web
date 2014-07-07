@@ -945,7 +945,7 @@ body {
 .totalcost_am { font-weight: bold;}
 .promocode {padding: 20px 0;}
 .promocode .col-md-12 { padding-right: 0;}
-
+.buy_action {margin-top: 30px;}
 @media (max-width: 768px) {  
   .checkout .h_chko_item,
   .checkout .h_chko_price,
