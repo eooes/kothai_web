@@ -852,6 +852,8 @@ body {
 }
 @media (max-width: 400px) {
   .list_pro_down img {margin-top: 25% !important; }
+  .p_checkout {margin-right: 0px !important;}
+  .push_action {padding: 0!important; }
 }
 
 /* Checkout page 0000000000000000000000000000000000000000000000000000000000000000000000000*/
