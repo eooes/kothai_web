@@ -1,4 +1,13 @@
 
+$( window ).resize(function() {
+  if($( window ).width() < 915 ) {
+    $(".img360").width($( window ).width()-100);
+    $newheight = $(".img360").width();
+    $(".img360").height($newheight/1.3333);
+  }
+});
+
+
 $(document).ready(function() {
 
 $(".hoverlift").hover(function(){
@@ -7,9 +16,13 @@ $(".hoverlift").hover(function(){
     $(this).stop(true, false).animate({ 'background-position-x': '0%' });
 });
 
+
 $('.cov_remove_me').popover();
 
-$(".img360").height($( document ).width()/1.3333);
+
+
+
+
 $("#hammenu").mmenu();
 
 $( ".p_box" ).click(function() {
