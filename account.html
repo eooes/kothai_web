@@ -8,11 +8,20 @@
   <script src="js/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/moment.min.js"></script>
   <script type="text/javascript" src="js/jquery.mmenu.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/jquery.mmenu.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker5').datetimepicker({
+                    pickTime: false
+                });
+            });
+        </script>
 </head>
 <body class="pace-done ">
 <div> <!-- the wrapper -->
@@ -374,13 +383,339 @@
 
 
 <div>
-  <div class="product cover_contain_mobile">
-    <div class="container">      
-      <div class="row">
-        <h1>Check out</h1>
+<div class="account cover_contain_mobile">
+  <div class="container">      
+  <div class="row">
+
+<div class="account col-md-12">
+<h1>My Account</h1>
+
+
+
+
+
+
+
+
+
+<div class="board">
+  <!-- <h2>Welcome to IGHALO!<sup>™</sup></h2>-->
+  <div class="board-inner">
+    <ul class="nav nav-tabs" id="myTab">
+      <div class="liner"></div>
+      <li class="active">
+        <a href="#home" data-toggle="tab" title="Welcome"> <span class="round-tabs one">
+                              <i class="glyphicon glyphicon-home"></i>
+                      </span> 
+        </a>
+      </li>
+      <li>
+        <a href="#profile" data-toggle="tab" title="Profile"> <span class="round-tabs two">
+                         <i class="glyphicon glyphicon-user"></i>
+                     </span> 
+        </a>
+      </li>
+      <li>
+        <a href="#messages" data-toggle="tab"
+        title="Address"> <span class="round-tabs three">
+                          <i class="glyphicon glyphicon-map-marker"></i>
+                     </span> 
+        </a>
+      </li>
+      <li>
+        <a href="#settings" data-toggle="tab"
+        title="Track"> <span class="round-tabs four">
+                              <i class="glyphicon glyphicon-shopping-cart"></i>
+                         </span> 
+        </a>
+      </li>
+      <li>
+        <a href="#doner" data-toggle="tab" title="Favorite"> <span class="round-tabs five">
+                              <i class="glyphicon glyphicon-star"></i>
+                         </span> 
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="tab-content">
+
+
+
+
+    <div class="tab-pane fade in active" id="home">
+      <h3 class="head_tap text-center">Accueil, Chawanan! <span style="color:#f48260;">♥</span></h3>
+      <div class="text-center covimg_profile"><img src="images/profile_pic_user.jpg" class="pic_profile"></div>
+      <p class="narrow text-center">
+        Lorem ipsum dolor sit amet, his ea mollis
+        fabellas principes. Quo mazim facilis
+        tincidunt ut, utinam saperet facilisi
+        an vim.</p>
+      <p class="text-center"> <a href="" class="btn btn-success btn-outline-rounded green"> open magic box <span class="icon_button glyphicon glyphicon-send"></span></a>
+      </p>
+
+    </div>
+
+
+
+
+    <div class="tab-pane fade" id="profile">
+
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    <i class="icon_button glyphicon glyphicon-warning-sign"></i>
+  <strong>Oh no!</strong> you missed "First name", please try again
+</div>
+
+<div class="alert alert-danger alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    <i class="icon_button glyphicon glyphicon-warning-sign"></i>
+  <strong>Wrong!</strong> your password is incorrect, please tryagain</div>
+
+
+      <h1 class="text-center"><i class="glyphicon glyphicon-user"></i></h1>
+      <h3 class="head_tap text-center">Profile</h3>
+
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">First name * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm" placeholder="Chawanan">
+        </div>
+      </div>
+
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Last name * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm" placeholder="Inkumnoi">
+        </div>
+      </div>
+
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Email * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm" placeholder="whatever@me.com">
+        </div>
+      </div>
+
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Phone number * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm" placeholder="+66029403829048390">
+        </div>
+      </div>
+
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Date of birth * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12 form-group">
+          <div class='input-group date' id='datetimepicker5' data-date-format="YYYY/MM/DD">
+            <input type='text' class="form-control" placeholder="2014/07/07" />
+            <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span>
+            </span>
+          </div>
+        </div>
+            <a href="#" class="btn btn-success btn-outline-rounded green pull-right"> Save <span class="icon_button glyphicon glyphicon-ok"></span></a>
+      </div>
+      <h1 class="text-center"><i class="glyphicon glyphicon-picture"></i></h1>
+      <h3 class="head_tap text-center">Picture</h3>
+      <div class="clearfix">
+        <div class="text-right covimg_profile_c col-md-6 col-sm-6">
+          <img src="images/profile_pic_user.jpg"></div>
+        <div class="text-left covimg_profile_c col-md-6 col-sm-6">
+          <p>Please choose your picture</p>
+          <input type="file" name="picture" value="" accept="image/jpeg" onchange="checkFile(this);">
+        </div>
+      </div>
+      <div class="clearfix form_profile_cov">
+        <a href="#" class="btn btn-success btn-outline-rounded green pull-right"> Save <span class="icon_button glyphicon glyphicon-ok"></span></a>
+      </div>
+
+      <h1 class="text-center"><i class="glyphicon glyphicon-warning-sign"></i></h1>
+      <h3 class="head_tap text-center">Password</h3>
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Old password * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="password" id="" name="" class="form-control input-sm" placeholder="dot dot dot">
+        </div>
+      </div>
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">New password * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="password" id="" name="" class="form-control input-sm" placeholder="dot dot dot xxx">
+        </div>
+      </div>
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Password Again * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="password" id="" name="" class="form-control input-sm" placeholder="dot dot dot xxx">
+        </div>
+        <a href="#" class="btn btn-success btn-outline-rounded green pull-right"> Save <span class="icon_button glyphicon glyphicon-ok"></span></a>
+      </div>
+
+      <h1 class="text-center"><i class="glyphicon glyphicon-envelope"></i></h1>
+      <h3 class="head_tap text-center">Newsletter</h3>
+
+      <div class="clearfix">
+        <div class="text-right col-md-6 col-sm-6 col-xs-6">
+          Would you like Kothai e-Newsletter?
+        </div>
+      <div class="btn-group col-md-6 col-sm-6 col-xs-6" data-toggle="buttons">
+        <label class="btn btn-primary active">
+          <input type="radio" name="options" id="option1" checked> YES
+        </label>
+        <label class="btn btn-primary">
+          <input type="radio" name="options" id="option2"> NO
+        </label>
+      </div>
+      <div class="clearfix form_profile_cov">
+        <a href="#" class="btn btn-success btn-outline-rounded green pull-right"> Save <span class="icon_button glyphicon glyphicon-ok"></span></a>
+      </div>
       </div>
     </div>
+
+
+
+
+
+    <div class="tab-pane fade" id="messages">
+      <h1 class="text-center"><i class="glyphicon glyphicon-map-marker"></i></h1>
+      <h3 class="head_tap text-center">Address</h3>
+
+
+      <div class="alert alert-warning" role="alert">
+  <i class="icon_button glyphicon glyphicon-warning-sign"></i>
+  <strong>Ah!, Sorry</strong> - We don't have your address, please add your address below</div>
+
+
+      <div class="clearfix addr_tab_title">
+        <div class="col-md-3 col-sm-2 col-xs-12 addr_name_top">Title</div>
+        <div class="col-md-7 col-sm-8 col-xs-8 addr_info">Address</div>
+        <div class="col-md-1 col-sm-1 col-xs-2 addr_edit">Edit</div>
+        <div class="col-md-1 col-sm-1 col-xs-2 addr_del">Del.</div>
+      </div>
+      <div class="clearfix addr_tab_info">
+        <div class="col-md-3 col-sm-2 col-xs-12 addr_name">Mom house</div>
+        <div class="col-md-7 col-sm-8 col-xs-8 addr_info">Cheak cheak chuplacambla 2355 Cameron Road, Buffalo, NY 14202</div>
+        <div class="col-md-1 col-sm-1 col-xs-2 addr_edit"><i class="glyphicon glyphicon-pencil"></i></div>
+        <div class="col-md-1 col-sm-1 col-xs-2 addr_del"><i class="glyphicon glyphicon-remove-circle"></i></div>
+      </div>
+      <div class="clearfix addr_tab_info">
+        <div class="col-md-3 col-sm-2 col-xs-12 addr_name">Dad house</div>
+        <div class="col-md-7 col-sm-8 col-xs-8 addr_info">Qiang Kung Školní 692, 338 28 Radnice u Rokycan</div>
+        <div class="col-md-1 col-sm-1 col-xs-2 addr_edit"><i class="glyphicon glyphicon-pencil"></i></div>
+        <div class="col-md-1 col-sm-1 col-xs-2 addr_del"><i class="glyphicon glyphicon-remove-circle"></i></div>
+      </div>
+
+      <div class="clearfix addr_tab_info">
+        <div class="col-md-3 col-sm-2 col-xs-12 addr_name">Sister house</div>
+        <div class="col-md-7 col-sm-8 col-xs-8 addr_info">Валерия Захарова Sjötullsgatan 63, 696 03  ÅMMEBERG</div>
+        <div class="col-md-1 col-sm-1 col-xs-2 addr_edit"><i class="glyphicon glyphicon-pencil"></i></div>
+        <div class="col-md-1 col-sm-1 col-xs-2 addr_del"><i class="glyphicon glyphicon-remove-circle"></i></div>
+      </div>
+
+      <div class="clearfix addr_tab_info">
+        <div class="col-md-3 col-sm-2 col-xs-12 addr_name">李小方</div>
+        <div class="col-md-7 col-sm-8 col-xs-8 addr_info">香港东路6号，5号楼，8号室</div>
+        <div class="col-md-1 col-sm-1 col-xs-2 addr_edit"><i class="glyphicon glyphicon-pencil"></i></div>
+        <div class="col-md-1 col-sm-1 col-xs-2 addr_del"><i class="glyphicon glyphicon-remove-circle"></i></div>
+      </div>
+
+      <h1 class="text-center"><i class="glyphicon glyphicon-plus"></i></h1>
+      <h3 class="head_tap text-center">add address</h3>
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Address title * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm" placeholder="Address title">
+        </div>
+      </div>
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Name lastname * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm" placeholder="Your name and lastname">
+        </div>
+      </div>
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Address line 1 * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm" placeholder="Your address">
+        </div>
+      </div>
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Address line 2 :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm">
+        </div>
+      </div>
+
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">City * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm" placeholder="Your city">
+        </div>
+      </div>
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Postal code * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm" placeholder="Your postal code ">
+        </div>
+      </div>
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">State/Region :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm">
+        </div>
+      </div>
+      <div class="clearfix form_profile_cov">
+        <div class="col-md-3 col-sm-3 col-xs-12">Country * :</div>
+        <div class="btn-group col-md-9 col-sm-9 col-xs-12">
+          <input type="text" id="" name="" class="form-control input-sm" placeholder="Your country">
+        </div>
+         <a href="#" class="btn btn-success btn-outline-rounded green pull-right"> Save <span class="icon_button glyphicon glyphicon-ok"></span></a>
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="tab-pane fade" id="settings">
+      <h1 class="text-center"><i class="glyphicon glyphicon-shopping-cart"></i></h1>
+      <h3 class="head_tap text-center">Track Orders</h3>
+      <p class="narrow text-center">Lorem ipsum dolor sit amet, his ea mollis
+        fabellas principes. Quo mazim facilis
+        tincidunt ut, utinam saperet facilisi
+        an vim.</p>
+      <p class="text-center"> <a href="" class="btn btn-success btn-outline-rounded green"> start using bootsnipp <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+      </p>
+    </div>
+
+
+
+
+
+    <div class="tab-pane fade" id="doner">
+      <h1 class="text-center"><i class="glyphicon glyphicon-star"></i></h1>
+      <h3 class="head_tap text-center">Favorite</h3>
+      <p class="narrow text-center">Lorem ipsum dolor sit amet, his ea mollis
+        fabellas principes. Quo mazim facilis
+        tincidunt ut, utinam saperet facilisi
+        an vim.</p>
+    </div>
+    <div class="clearfix"></div>
   </div>
+</div>
+
+
+
+
+
+
+</div>
+
+  </div>
+  </div>
+</div>
 </div>
 
 
@@ -433,5 +768,6 @@
     <div class="container copyright">2014 &#169; Kothai Store. All Rights Reserved. </div>
   </div>
 </div> <!-- END the wrapper -->
+
 </body>
 </html>
