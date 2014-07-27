@@ -820,7 +820,7 @@ body {
 }
 .p_addtocard{background-color: #40AFBD;}
 .p_save {background-color: #5cb85c;}
-.p_checkout{background-color: #DF454F;}
+.p_checkout{background-color: #009933;}
 .product h4.upperbold {padding-top: 10px;}
 
 .product .indeep_detail { margin-bottom: 30px;}
@@ -982,6 +982,7 @@ body {
   width: 36px; 
   height: 36px;
   transform: scale(0.707) rotate(45deg);
+  -webkit-transform: scale(0.707) rotate(45deg);
   z-index: 1;
   background: #666;
   background: linear-gradient(135deg, #666, #333);
@@ -1479,7 +1480,7 @@ padding-top: 10px; padding-bottom: 10px;}
   padding-left: 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .form_profile_cov {width: 100%;}
   .form_profile_cov div:first-child {margin-bottom: 5px;}
   .covimg_profile_c {text-align: center !important;}
