@@ -1153,8 +1153,11 @@ body {
 
 }
 
-
-
+.purchaseitem_detail_chk2 blockquote {font-size: 1em;}
+.purchaseitem_detail_chk2 blockquote i { color: green;}
+.purchaseitem_detail_chk2 h4:hover {background-color: #ff2929; color: white;}
+.purchaseitem_detail_chk2 h4{padding: 5px; background-color: #eee;} 
+.chk2_contact div.clearfix{ padding-bottom: 10px; }
 
 /* account page 0000000000000000000000000000000000000000000000000000000000000000000000000*/
 
