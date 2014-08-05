@@ -687,6 +687,9 @@ body {
   color: #B8515A;
   text-decoration: none;
 }
+.product .view360 h5 a:hover {
+
+}
 .product .view360 h5  a:hover{ color: #333;}
 .product  .p_discount{
   position: absolute;
@@ -1875,3 +1878,104 @@ padding-top: 10px; padding-bottom: 10px;}
 .purchaseitem_detail_chk2 h4:hover {background-color: #ff2929; color: white;}
 .purchaseitem_detail_chk2 h4{padding: 5px; background-color: #eee;} 
 .chk2_contact div.clearfix{ padding-bottom: 10px; }
+
+
+
+
+.product_art h1 {font-family: 'komika_axisregular', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;}
+.product_art h5 a {color: #B8515A; text-decoration: none;}
+.product_art h5 {
+  font-style: italic;
+  font-weight: bold;
+  color: #B8515A;
+}
+.default { padding-bottom: 50px;}
+.default .def_head {font-family: 'komika_axisregular', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;}
+.pro_list_item_detail span{ font-size: 1.5em;}
+.pro_list_item_detail span.money {font-weight: bold; color: #B8515A;}
+.pro_list_item_detail {text-align: left;}
+.pro_list_item_detail a {color: #777;}
+.pro_list_item img {margin-top: 35px;}
+.pro_list_item { 
+  text-align: center;
+  border: 5px solid white;
+  -webkit-box-shadow: 0 0 0 1px #EDE9EB inset;
+  -moz-box-shadow: 0 0 0 1px #EDE9EB inset;
+  box-shadow: 0 0 0 1px #EDE9EB inset;
+  height: 275px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pro_list_item_detail {
+  position: absolute;
+  bottom: 0px;
+}
+.pro_list_item_detail small {text-decoration: line-through;}
+.pro_list_item span.pull-right{
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  font-size: 1.5em;
+}
+.pro_list_item span.pull-right a:hover{
+  color: #2e618d;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -kthtml-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+
+div.notfound {
+    margin: 80px auto 0 auto;
+    height: 100px;
+    width: 100px;
+    background-color: #ff2929;
+    border-radius: 50%;
+    position: relative;
+}
+
+div.notfound:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\d7";
+    font-size: 50px; 
+    color: #FFF;
+    line-height: 100px;
+    text-align: center;
+}
+.middlemode {text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
