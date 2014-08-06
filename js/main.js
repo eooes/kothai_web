@@ -63,7 +63,15 @@ var $links2=$('.menu-link2').hover(function(){
    
 });
 
-
+var check;
+$("#checkbox_x1").on("click", function(){
+    check = $("#checkbox_x1").prop("checked");
+    if(check) {
+         $(".extraservi_show").show();
+    } else {
+        $(".extraservi_show").hide();
+    }
+}); 
 
 
 

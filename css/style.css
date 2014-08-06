@@ -2184,8 +2184,15 @@ div.notfound:after {
 }
 
 
-
-
+.choose_delivery, .choose_delivery2 { text-align: left;}
+.choose_delivery select { margin-bottom: 10px;}
+.extraservi_show {display: none; text-align: center;}
+.extraservi_show textarea{ width: 100%; margin-bottom: 20px;}
+.paddingleft15{ padding-left: 15px;}
+@media (max-width: 992px) {
+  .extraservi_show {margin-top: 10px;}
+  .extraservi {margin-bottom: 10px;}
+}
 
 
 
