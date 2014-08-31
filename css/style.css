@@ -2270,10 +2270,20 @@ div.notfound:after {
     line-height: 1.3em;
   }
 }
+@media (max-width: 992px) and (min-width: 768px)  {
+  .blog_left_menu { height: 30px;}
+  .blog_left_menu h1 { 
+    float: left; 
+    padding-left: 10px;
+    margin: 0px;
+    line-height: 1.3em;
+  }
+}
 @media screen and (max-width: 767px) { 
   .cover_one { 
-    width: 97% !important;
+    width: 95% !important;
   }
+  .blog_left_menu { height: 120px;}
 }
 .cover_one_in {
   overflow: hidden;
