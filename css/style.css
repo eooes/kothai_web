@@ -2245,8 +2245,7 @@ div.notfound:after {
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   transition: color 0.3s;
-  border-top: 5px solid red;
-  border-bottom: 5px solid red;
+
 }
 .blog_left_menu a:hover {
   color: #333;
@@ -2284,6 +2283,7 @@ div.notfound:after {
     width: 95% !important;
   }
   .blog_left_menu { height: 120px;}
+
 }
 .cover_one_in {
   overflow: hidden;
@@ -2302,4 +2302,96 @@ div.notfound:after {
   font-size: 1.3em;
   text-transform: uppercase;
   font-family: 'komika_axisregular', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+}
+.s_m {
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  margin-left: 5px !important;
+  margin-bottom: 20px !important;
+}
+
+.blog2_h1 {
+  font-size: 1.8em;
+  line-height: 1.4em;
+  font-family: 'komika_axisregular', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+  padding: 0 5px;
+  color: #333;
+  font-weight: 900;
+  margin-top: 0px !important;
+}
+.blog2 img.mainimg{ margin: 15px;}
+
+
+
+/* MENU X 0000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+.cl-blog {
+  position: relative;
+  z-index: 2;
+}
+
+.cl-blog .xmenu a {
+  padding: 0 5px;
+  color: #000;
+  font-weight: 900;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.cl-blog .xmenu a::before,
+.cl-blog .xmenu a::after {
+  position: absolute;
+  width: 80px;
+  padding-top: 20px;
+  margin-top: 15px;
+  left: 8%;
+  height: 5px;
+  background: #ff2929;
+  content: '';
+  z-index: -1;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  pointer-events: none;
+}
+
+
+.cl-blog .xmenu a::before {
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+
+.cl-blog .xmenu a::after {
+  -webkit-transform: translateY(20px);
+  -moz-transform: translateY(20px);
+  transform: translateY(20px);
+}
+
+.cl-blog .xmenu a:hover,
+.cl-blog .xmenu a:focus {
+  color: #000;
+}
+
+.cl-blog .xmenu a:hover::before,
+.cl-blog .xmenu a:hover::after,
+.cl-blog .xmenu a:focus::before,
+.cl-blog .xmenu a:focus::after {
+  opacity: 0.7;
+}
+
+.cl-blog .xmenu a:hover::before,
+.cl-blog .xmenu a:focus::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.cl-blog .xmenu a:hover::after,
+.cl-blog .xmenu a:focus::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
