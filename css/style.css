@@ -2344,8 +2344,8 @@ div.notfound:after {
 .cl-blog .xmenu a::after {
   position: absolute;
   width: 80px;
-  padding-top: 20px;
-  margin-top: 15px;
+
+  margin-top: 20px;
   left: 8%;
   height: 5px;
   background: #ff2929;
