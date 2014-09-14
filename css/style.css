@@ -2444,3 +2444,42 @@ div.notfound:after {
 }
 
 
+
+/*  blog and press  */
+
+.x{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  margin-bottom: 30px;
+}
+.x img { 
+  width: 100%;
+  overflow: hidden;
+}
+#box_arr[data-columns]::before {
+  content: '3 .columnX.size-1of3';
+}
+
+.columnX { float: left; }
+.size-1of3 { width: 33.333%; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 50%; }
+.size-1of3 { width: 33.333%; }
+@media screen and (max-width: 480px){
+  #box_arr[data-columns]::before {
+    content: '1 .columnX.size-1of1';
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #box_arr[data-columns]::before {
+    content: '2 .columnX.size-1of2';
+  }
+}
+@media screen and (min-width: 769px) {
+  #box_arr[data-columns]::before {
+    content: '3 .columnX.size-1of3';
+  }
+}
+
+
