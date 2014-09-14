@@ -2273,7 +2273,7 @@ div.notfound:after {
 .cover_one_text{
   padding: 0 10px 30px 10px !important;
 }
-.cover_one h3 {
+.cover_one_text h3 {
   margin-top: 5px;
   margin-bottom: 5px;
   line-height: 1.4em; 
@@ -2447,12 +2447,12 @@ div.notfound:after {
 
 /*  blog and press  */
 
-.x{
+.mex{
   padding-left: 10px !important;
   padding-right: 10px !important;
   margin-bottom: 30px;
 }
-.x img { 
+.mex img { 
   width: 100%;
   overflow: hidden;
 }

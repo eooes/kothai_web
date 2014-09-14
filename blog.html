@@ -10,7 +10,6 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.mmenu.min.js"></script>
 
-  <script type="text/javascript" src="js/masonry.js"></script>
   <link rel="stylesheet" type="text/css" href="css/jquery.mmenu.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -416,64 +415,63 @@
                 <h1 class="hidden-lg s_m"><a href="#">presse</a></h1>
 
             </div>
-            <div id="box_arr" class="col-md-9 cover_three">
-              <div class="col-md-4 cover_one">
+            <div id="box_arr" class="col-md-9 cover_three" data-columns>
+
+              
                 <div class="cover_one_in">
                   <div class="cover_one_img"><img src="images/1.jpg"></div>
                   <div class="cover_one_text">
                   <h3>This is our titel of the page! Hellow one two</h3>
                     To get away from that world I did two things — first, I wrote a little CSS utility script called SUS (which we’re still using today and I’ve just open sourced here: https://github.com/medium/sus). This was largely written in IRC with the help of Guillermo Rauch, and is used to extract images from stylesheets and lazy load them in a separate, data-uri file. Not an original concept, just something simple that could be done to help us get to where we needed to go.</div>
                 </div>
-              </div>
-              <div class="col-md-4 cover_one">
+
+
+              
                 <div class="cover_one_in">
                   <div class="cover_one_img"><img src="images/2.jpg"></div>
                   <div class="cover_one_text">
                   <h3>of the page!</h3>
                     This was largely written in IRC with the help of Guillermo Rauch, and is used to extract images from stylesheets and lazy load them in a separate, data-uri file. Not an original concept, just something simple that could be done to help us get to where we needed to go.</div>
                 </div>
-              </div>
-              <div class="col-md-4 cover_one">
+
+
+              
                 <div class="cover_one_in">
                   <div class="cover_one_img"><img src="images/3.jpg"></div>
                   <div class="cover_one_text">
                   <h3>Hello Holiday!</h3>
                     To get away from that world I Guillermo Rauch, and is used to extract images from stylesheets and lazy load them in a separate, data-uri file. Not an original concept, just something simple that could be done to help us get to where we needed to go.</div>
                 </div>
-              </div>
-              <div class="col-md-4 cover_one">
+
+              
                 <div class="cover_one_in">
                   <div class="cover_one_img"><img src="images/4.jpg"></div>
                   <div class="cover_one_text">
                   <h3>Hello hello with H el lo Holiday!</h3>
                     To get away from that world I did two things — first, I wrote a little CSS utility script called SUS (which we’re still using today and I’ve just This was largely written in IRC with the help of Guillermo Rauch, and is used to extract images from stylesheets and lazy load them in a separate, data-uri file. Not an original concept, just something simple that could be done to help us get to where we needed to go.</div>
                 </div>
-              </div>
-              <div class="col-md-4 cover_one">
+
+
+              
                 <div class="cover_one_in">
                   <div class="cover_one_img"><img src="images/3.jpg"></div>
                   <div class="cover_one_text">
                   <h3>Hello Holiday!</h3>
                     To get away from that world I Guillermo Rauch, and is used to extract images from stylesheets and lazy load them in a separate, data-uri file. Not an original concept, just something simple that could be done to help us get to where we needed to go.</div>
                 </div>
-              </div>
-              <div class="col-md-4 cover_one">
+
+
+              
                 <div class="cover_one_in">
                   <div class="cover_one_img"><img src="images/1.jpg"></div>
                   <div class="cover_one_text">
                   <h3>This is our titel of the page! Hellow one two</h3>
                     To get away from that world I did two things — first, I wrote a little CSS utility script called SUS (which we’re still using today and I’ve just open sourced here: https://github.com/medium/sus). This was largely written in IRC with the help of Guillermo Rauch, and is used to extract images from stylesheets and lazy load them in a separate, data-uri file. Not an original concept, just something simple that could be done to help us get to where we needed to go.</div>
                 </div>
-              </div>
+
 
             </div>
 
-            <div class="col-md-12 product_bottom">
-   
-            <div class="clearfix cov_list_pro_down">
-
-            </div>
-            </div>
 
 
 
@@ -537,16 +535,8 @@
     <div class="container copyright">2014 &#169; Kothai Store. All Rights Reserved. </div>
   </div>
 </div> <!-- END the wrapper -->
+  <script type="text/javascript" src="js/salvattore.min.js"></script>
 
-  <script type="text/javascript">
-
-    var container = document.querySelector('#box_arr');
-    var msnry = new Masonry( container, {
-      // options
-      itemSelector: '.col-md-4'
-    });
-
-  </script>
 
 </body>
 </html>
